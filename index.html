@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOPWATCH</title>   
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="box">
+<h2 class="heading">STOPWATCH</h2>
+<h1 id="timerdisplay">00 : 00 : 00 </h1>
+<button onclick="start()" style="background-color: green;">Start</button>
+<button onclick="stop()" style="background-color: red;">Stop</button>
+<button onclick="reset()" style="background-color: royalblue;">Reset</button><br>
+<button onclick="restart()" style="background-color: rgb(12, 184, 12);">Restart</button>
+<button onclick="lap()" style="background-color: rgb(210, 58, 58);">Lap</button>
+<button onclick="resetlap()" style="background-color: rgb(38, 76, 188);">Reset<br>Laps</button>
+</div>
+<div class="lapbox">
+<ol id="laps">
+</ol>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
